@@ -3,7 +3,7 @@
 
 SHELL   = /bin/sh
 
-charsets=sil-beng.py sil-mtei.py sil-mtei-ext.py
+charsets=sil-beng.py sil-mtei.py sil-mtei-ext.py sil-orya.py
 
 all:
 	install -m 600 $(charsets) "$(HOME)/builds/pyfontaine/fontaine/charsets/internals"
