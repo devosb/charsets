@@ -4,9 +4,9 @@
 # Apache License v2.0
 
 class Charset:
-    common_name = 'SIL: Yiii script'
-    native_name = 'Yiii script'
-    abbreviation = 'Yiii'
+    common_name = 'SIL: Yi script'
+    native_name = 'Yi script'
+    abbreviation = 'Yi'
     key = 0xA000
     glyphs = [
         0x2030,  # PER MILLE SIGN
@@ -1252,7 +1252,10 @@ class Charset:
         0xA4C4,  # YI RADICAL ZZIET
         0xA4C5,  # YI RADICAL NBIE
         0xA4C6,  # YI RADICAL KE
+        0xFF02,  # FULLWIDTH QUOTATION MARK
         0xFF0C,  # FULLWIDTH COMMA
+        0xFF0D,  # FULLWIDTH HYPHEN-MINUS
+        0xFF1F,  # FULLWIDTH QUESTION MARK
         0xFF61,  # HALFWIDTH IDEOGRAPHIC FULL STOP
         0xFF62,  # HALFWIDTH LEFT CORNER BRACKET
         0xFF63,  # HALFWIDTH RIGHT CORNER BRACKET
